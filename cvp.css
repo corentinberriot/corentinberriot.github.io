@@ -2,7 +2,7 @@ body{
 	background-color: grey;
 }
 .page{
-	width: 950px; 
+	width: 950px;
 	margin: auto;
 	font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
 	font-size: 16px;
@@ -20,6 +20,7 @@ body{
 	}
 	.photo{
 		float: right;
+
 	}
 	.section{
 		margin-bottom: 30px;
@@ -37,6 +38,24 @@ body{
 	margin-left: 200px;
 	margin-top: 41px;
 }
+/*date formation*/
+.INSA	{
+	margin-top: -20%;
+}
+.ATS	{
+	margin-top: 62%;
+}
+.DUT	{
+	margin-top: 40%;
+}
+/*fin date formation*/
+
+
+.sec-gauche	{
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+}
 h2{
 	font-size: 28px;
 	color: #3388BB;
@@ -53,6 +72,23 @@ h2{
 #Exp-date p{
 	margin-bottom: 36px;
 }
+
+/* -------- date exp pro -------- */
+.FCA	{
+	margin-top: 31%;
+}
+.AMS	{
+	margin-top: -0.5%;
+}
+.BMX	{
+	margin-top: 4%;
+	margin-bottom: -12%;
+}
+.Woofing	{
+	margin-top: -30%;
+}
+/* -------- fin date exp pro -------- */
+
 .sec-gauche p{
 	margin-top: 18px;
 	margin-bottom: -2px;
@@ -61,14 +97,14 @@ h2{
 	font-size: 28px;
 }
 #moi{
-	margin-top: -3px;
+	margin-top: -30px;
 	margin-bottom: -2px;
-	font-size: 24px;
+	font-size: 35px;
 }
 #moi-info{
 	margin-top: 5px;
 	margin-bottom: 0px;
-	font-size: 20px;
+	font-size: 22px;
 	}
 .info:hover{
 	color: #148f77;
@@ -94,7 +130,7 @@ h2{
 	text-align:center;
 	border-radius: 5px;
 	}
-	
+/*
 a span{
 	position: relative;
 	width: 1.Srem;
@@ -116,7 +152,7 @@ a span:after{
 	justify-content:center;
 }
 	
-	
+/*
 #téléchargerINSA a{
 	text-decoration: none;
 	font-size: 1.7rem;
@@ -128,6 +164,7 @@ a span:after{
 	text-align:center;
 	border-radius: 5px;
 }
+
 #téléchargerAIDE {
 	min-height: 0vh;
 	display:flex;
